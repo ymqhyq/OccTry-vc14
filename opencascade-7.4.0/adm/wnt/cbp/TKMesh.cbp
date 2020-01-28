@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TKMesh" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../../wnt/gcc/bin/libTKMesh" imp_lib="../../../wnt/gcc/lib/$(TARGET_OUTPUT_BASENAME)" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option object_output="../../../wnt/gcc/obj" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DNo_Exception" />
+				</Compiler>
+				<Linker>
+					<Add option="@TKMesh_obj.link" />
+					<Add directory="../../../wnt/gcc/lib" />
+					<Add option="$(CSF_OPT_LNK64)" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="../../../wnt/gcc/bind/libTKMesh" imp_lib="../../../wnt/gcc/libd/$(TARGET_OUTPUT_BASENAME)" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option object_output="../../../wnt/gcc/objd" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="@TKMesh_objd.link" />
+					<Add directory="../../../wnt/gcc/libd" />
+					<Add option="$(CSF_OPT_LNK64D)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mmmx" />
+			<Add option="-msse" />
+			<Add option="-msse2" />
+			<Add option="-mfpmath=sse" />
+			<Add option="-std=gnu++0x" />
+			<Add option="-D_WIN32_WINNT=0x0501" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="$(CSF_OPT_CMPL)" />
+			<Add directory="../../../inc" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--export-all-symbols" />
+			<Add library="TKernel" />
+			<Add library="TKMath" />
+			<Add library="TKBRep" />
+			<Add library="TKTopAlgo" />
+			<Add library="TKShHealing" />
+			<Add library="TKGeomBase" />
+			<Add library="TKG3d" />
+			<Add library="TKG2d" />
+		</Linker>
+		<Unit filename="../../../src/IMeshTools/IMeshTools_MeshBuilder.cxx" />
+		<Unit filename="../../../src/IMeshTools/IMeshTools_ShapeExplorer.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_Curve.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_Edge.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_Face.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_Model.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_PCurve.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMeshData/BRepMeshData_Wire.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_BaseMeshAlgo.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_CircleTool.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_Classifier.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ConeRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_Context.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_CurveTessellator.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_CylinderRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_DataStructureOfDelaun.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_DefaultRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_Deflection.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_Delaun.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_DelaunayBaseMeshAlgo.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_DiscretFactory.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_DiscretRoot.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_EdgeDiscret.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_EdgeTessellationExtractor.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_FaceChecker.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_FaceDiscret.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_GeomTool.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_IncrementalMesh.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_MeshAlgoFactory.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_MeshTool.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ModelBuilder.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ModelHealer.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ModelPostProcessor.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ModelPreProcessor.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_NURBSRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_SelectorOfDataStructureOfDelaun.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ShapeTool.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_ShapeVisitor.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_SphereRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_TorusRangeSplitter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/BRepMesh/BRepMesh_VertexTool.cxx">
+			<Option link="0" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

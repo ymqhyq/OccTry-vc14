@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKernel", "TKernel.vcxproj", "{32236BEB-08E9-15B2-054C-C3683BF0236C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKMath", "TKMath.vcxproj", "{A5C2EB39-0418-0F20-1207-B0618BD4158C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32236BEB-08E9-15B2-054C-C3683BF0236C} = {32236BEB-08E9-15B2-054C-C3683BF0236C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Debug|Win32.Build.0 = Debug|Win32
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Release|Win32.ActiveCfg = Release|Win32
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Release|Win32.Build.0 = Release|Win32
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Debug|x64.ActiveCfg = Debug|x64
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Debug|x64.Build.0 = Debug|x64
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Release|x64.ActiveCfg = Release|x64
+		{32236BEB-08E9-15B2-054C-C3683BF0236C}.Release|x64.Build.0 = Release|x64
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Debug|Win32.Build.0 = Debug|Win32
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Release|Win32.ActiveCfg = Release|Win32
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Release|Win32.Build.0 = Release|Win32
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Debug|x64.ActiveCfg = Debug|x64
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Debug|x64.Build.0 = Debug|x64
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Release|x64.ActiveCfg = Release|x64
+		{A5C2EB39-0418-0F20-1207-B0618BD4158C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

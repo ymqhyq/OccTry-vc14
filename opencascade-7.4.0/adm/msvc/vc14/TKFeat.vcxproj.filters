@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{9E52F175-039D-0688-0F5B-94A98605D9BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1AABF2C0-1798-00D3-1517-B5864381C427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LocOpe">
+      <UniqueIdentifier>{750A59AF-079A-02D5-06CD-EDA272441B0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepFeat">
+      <UniqueIdentifier>{4C56A25C-12F1-04E5-0B46-4D8F05E8B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LocOpe">
+      <UniqueIdentifier>{B6752A6C-1322-0CCC-1138-21174A803238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepFeat">
+      <UniqueIdentifier>{61203AF8-18E9-11A4-165B-52E65F92A2A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_BuildShape.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_BuildWires.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_CSIntersector.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_CurveShapeIntersector.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_DPrism.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_FindEdges.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_FindEdgesInFace.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_GeneratedShape.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Generator.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_GluedShape.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Gluer.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_LinearForm.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Pipe.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Prism.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Revol.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_RevolutionForm.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_SplitDrafts.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_SplitShape.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_Spliter.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LocOpe\LocOpe_WiresOnShape.cxx">
+      <Filter>Source files\LocOpe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_Builder.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_Form.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_Gluer.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakeCylindricalHole.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakeDPrism.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakeLinearForm.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakePipe.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakePrism.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevol.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevolutionForm.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_RibSlot.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_SplitShape.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepFeat\BRepFeat_trace.cxx">
+      <Filter>Source files\BRepFeat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_BuildShape.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_BuildShape.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_BuildWires.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_CSIntersector.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_CSIntersector.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_CurveShapeIntersector.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_CurveShapeIntersector.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_DPrism.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_DataMapIteratorOfDataMapOfShapePnt.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_DataMapOfShapePnt.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_FindEdges.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_FindEdges.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_FindEdgesInFace.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_FindEdgesInFace.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_GeneratedShape.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Generator.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Generator.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_GluedShape.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Gluer.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Gluer.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_LinearForm.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_LinearForm.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Operation.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Pipe.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Pipe.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_PntFace.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Prism.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Revol.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_RevolutionForm.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SequenceOfCirc.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SequenceOfLin.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SequenceOfPntFace.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SplitDrafts.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SplitDrafts.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SplitShape.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_SplitShape.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Spliter.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_Spliter.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_WiresOnShape.hxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LocOpe\LocOpe_WiresOnShape.lxx">
+      <Filter>Header files\LocOpe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Builder.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Form.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Form.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Gluer.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Gluer.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeCylindricalHole.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeCylindricalHole.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeDPrism.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeLinearForm.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeLinearForm.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakePipe.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakePipe.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakePrism.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakePrism.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevol.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevol.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevolutionForm.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_MakeRevolutionForm.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_PerfSelection.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_RibSlot.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_RibSlot.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_SplitShape.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_SplitShape.lxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_Status.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepFeat\BRepFeat_StatusError.hxx">
+      <Filter>Header files\BRepFeat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKFeat.rc" />
+  </ItemGroup>
+</Project>

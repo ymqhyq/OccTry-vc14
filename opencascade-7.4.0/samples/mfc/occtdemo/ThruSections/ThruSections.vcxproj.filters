@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0de0ed64-0414-4651-a0da-bfd4f1530436}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4006576a-9ae5-4f74-a814-9f96ccfe8146}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ec46c7e6-4c56-4aea-b07b-da5145da62c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Source Files No. 1">
+      <UniqueIdentifier>{3da817d7-e7c4-41e3-be3d-645ce36f2d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Header Files No. 1">
+      <UniqueIdentifier>{ae04e395-42de-4e3d-b97a-092605f87764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Resource Files">
+      <UniqueIdentifier>{0c03a145-ce85-4e70-80ff-0369c4af860c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThruSections_Presentation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ISession\ISession_Curve.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\MainFrm.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\OCCDemo.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\OCCDemo_Presentation.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\OCCDemoDoc.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\OCCDemoView.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\ResultDialog.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\WNT\StdAfx.cpp">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThruSections_Presentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ISession\ISession_Curve.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\MainFrm.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\OCCDemo.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\OCCDemo_Presentation.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\OCCDemoDoc.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\OCCDemoView.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\resource.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\ResultDialog.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\WNT\StdAfx.h">
+      <Filter>Common\Header Files No. 1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\env.bat">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\run.bat">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\vc.bat">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\Common\WNT\res\OCCDemo.rc2">
+      <Filter>Common\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\readme.txt">
+      <Filter>Common</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Common\WNT\OCCDemo.rc">
+      <Filter>Common\Source Files No. 1</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Common\WNT\res\OCCDemo.ico">
+      <Filter>Common\Resource Files</Filter>
+    </Image>
+    <Image Include="..\Common\WNT\res\toolbar.bmp">
+      <Filter>Common\Resource Files</Filter>
+    </Image>
+    <Image Include="..\Common\WNT\res\toolbar1.bmp">
+      <Filter>Common\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

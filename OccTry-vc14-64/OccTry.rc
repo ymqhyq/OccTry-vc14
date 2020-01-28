@@ -1,0 +1,1042 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\OccTry.rc2""  // 非 Microsoft Visual C++ 编辑资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#include ""afxprint.rc""       // 打印/打印预览资源\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\OccTry.ico"
+IDR_OccTryTYPE          ICON                    "res\\OccTryDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建\tCtrl+N(&N)",            ID_FILE_NEW
+        MENUITEM "打开...\tCtrl+O(&O)",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "关闭(&C)",                    ID_FILE_CLOSE
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 OccTry(&A)...",          ID_APP_ABOUT
+    END
+END
+
+IDR_OccTryTYPE MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建\tCtrl+N(&N)",            ID_FILE_NEW
+        MENUITEM "打开...\tCtrl+O(&O)",         ID_FILE_OPEN
+        MENUITEM "关闭(&C)",                    ID_FILE_CLOSE
+        MENUITEM "保存\tCtrl+S(&S)",            ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        POPUP "导入"
+        BEGIN
+            MENUITEM "BRep文件...",                 ID_MENU_IMPORT_BREP
+            MENUITEM "STEP文件...",                 ID_MENU_IMPORT_STEP
+            MENUITEM "IGES文件...",                 ID_MENU_IMPORT_IGES
+        END
+        POPUP "导出"
+        BEGIN
+            MENUITEM "STEP文件...",                 ID_MENU_EXPORT_STEPFILE
+            MENUITEM "IGES文件...",                 ID_MENU_EXPORT_IGESFILE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "打印...\tCtrl+P(&P)",         ID_FILE_PRINT
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消\tCtrl+Z(&U)",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切\tCtrl+X(&T)",            ID_EDIT_CUT
+        MENUITEM "复制\tCtrl+C(&C)",            ID_EDIT_COPY
+        MENUITEM "粘贴\tCtrl+V(&P)",            ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "删除",                        ID_MENU_DELETE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "输入栏",                      33003
+        MENUITEM SEPARATOR
+        POPUP "工作平面"
+        BEGIN
+            MENUITEM "前一工作平面",                ID_MENU_PRE_WORKPLANE
+            MENUITEM "后一工作平面",                ID_MENU_NEXT_WORKPLANE
+            MENUITEM "模型空间",                    ID_MENU_MODELSPACE
+            MENUITEM SEPARATOR
+            MENUITEM "改变原点",                    ID_MENU_CHANGE_ORG
+            MENUITEM "沿高度移动",                  ID_MENU_CHANGE_HEIGHT
+            MENUITEM "旋转",                        ID_MENU_CHANGE_ROTATE
+            MENUITEM "三点",                        ID_MENU_CHANGE_3POINT
+            MENUITEM "基于视图",                    ID_MENU_CHANGE_VIEW
+            MENUITEM "自定义...",                   ID_MENU_CHANGE_CUSTOM
+            MENUITEM "垂直于曲线",                  ID_MENU_UCS_CURVE_POINT
+            MENUITEM "基于曲面点",                  ID_MENU_UCS_FACE_POINT
+            MENUITEM "基于对象点",                  ID_MENU_UCS_OBJ_POINT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "正视于",                      ID_MENU_PLANVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "前视图",                      ID_MENU_FRONTVIEW
+        MENUITEM "后视图",                      ID_MENU_BACKVIEW
+        MENUITEM "左视图",                      ID_MENU_LEFTVIEW
+        MENUITEM "右视图",                      ID_MENU_RIGHTMENU
+        MENUITEM "上视图",                      ID_MENU_TOPVIEW
+        MENUITEM "下视图",                      ID_MENU_BOTTOMVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "适应窗口显示",                ID_MENU_FITALL
+        MENUITEM "对象结构",                    ID_MENU_SHAPE_STRUCT
+    END
+    POPUP "曲线"
+    BEGIN
+        MENUITEM "直线",                        ID_MENU_LINE
+        MENUITEM "连续直线",                    ID_MENU_POLYLINE
+        POPUP "圆"
+        BEGIN
+            MENUITEM "圆心\\半径",                  ID_MENU_CIRCLE
+            MENUITEM "三点圆",                      IDM_CIRCLE_THREE_POINT
+            MENUITEM "同心圆\\距离",                IDM_CIRCLE_CIRC_DIST
+            MENUITEM "同心圆\\过点",                IDM_CIRCLE_CIRC_POINT
+        END
+        POPUP "圆弧"
+        BEGIN
+            MENUITEM "圆心\\半径\\角度",            ID_MENU_ARC
+            MENUITEM "圆心\\两点",                  IDM_ARC_TWO_POINT
+            MENUITEM "三点",                        IDM_ARC_THREE_POINT
+            MENUITEM "圆\\起点\\角度",              IDM_ARC_POINT_ANGLE
+        END
+        POPUP "椭圆"
+        BEGIN
+            MENUITEM "对角",                        IDM_ELLI_CORNER
+            MENUITEM "中心\\长\\短轴",              IDM_ELLI_TWO_RADIUS
+            MENUITEM "中心\\两点",                  IDM_ELLI_CENTER_TWOPOINT
+        END
+        POPUP "椭圆弧"
+        BEGIN
+            MENUITEM "椭圆\\角度",                  IDM_ELLARC_ANGLE
+            MENUITEM "椭圆\\点\\角度",              IDM_ELLARC_POINT_ANGLE
+            MENUITEM "椭圆\\两点",                  IDM_ELLARC_TWO_POINT
+        END
+        MENUITEM "矩形",                        IDM_CURVE_RECTANGLE
+        POPUP "自由曲线"
+        BEGIN
+            MENUITEM "通过点",                      ID_MENU_SPLINE
+            MENUITEM "逼近点",                      ID_MENU_SPLINE_APP
+        END
+        MENUITEM "Bezier曲线",                  33187
+        MENUITEM "多边形",                      ID_MENU_POLYGON
+        MENUITEM SEPARATOR
+        POPUP "分割"
+        BEGIN
+            MENUITEM "点分割",                      IDM_CURVE_SPLIT_BYPOINT
+            MENUITEM "曲线分割",                    IDM_CURVE_SPLIT_BYCURVE
+        END
+        POPUP "裁剪"
+        BEGIN
+            MENUITEM "交点分割曲线",                IDM_CURVETRIM_SPLIT
+            MENUITEM "快速裁剪",                    IDM_CURVETRIM_QUICKTRIM
+        END
+        POPUP "倒角"
+        BEGIN
+            MENUITEM "倒圆角",                      IDM_CURVE_FILLET
+            MENUITEM "倒斜角",                      IDM_CURVE_CHAMFER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "偏移曲线",                    IDM_CURVE_OFFSET_CURVE
+        MENUITEM "投影曲线",                    ID_MENU_CBREP_PROJ
+        POPUP "交线"
+        BEGIN
+            MENUITEM "曲面交线",                    ID_MENU_CURVE_INTER
+            MENUITEM "实体交线",                    ID_MENU_SOLID_INTER
+        END
+        POPUP "边界曲线"
+        BEGIN
+            MENUITEM "曲面边界",                    33059
+            MENUITEM "参数域边界",                  IDM_CURVE_2DALLBND
+            MENUITEM "3d曲线边界",                  IDM_CURVE_3DALLBND
+        END
+        MENUITEM "流线",                        IDM_CURVE_ISOCURVE
+        MENUITEM SEPARATOR
+        MENUITEM "曲线组合",                    ID_MENU_CURVE_SEWING
+        MENUITEM "取消组合",                    IDM_WIRE_TO_EDGE
+        MENUITEM SEPARATOR
+        POPUP "点生成"
+        BEGIN
+            MENUITEM "空间点",                      ID_MENU_POINT
+            MENUITEM "平面点",                      ID_MENU_PLANE_POINT
+            MENUITEM "曲线交点",                    ID_MENU_POINT_INTER
+            MENUITEM "端点",                        ID_MENU_POINT_VERTEX
+        END
+        POPUP "点投影"
+        BEGIN
+            MENUITEM "点投影到线",                  IDM_POINT_PRJTO_CURVE
+            MENUITEM "点投影到面",                  IDM_POINT_PRJTO_SURF
+        END
+        MENUITEM "延伸到点",                    IDM_CURVE_EXTEND_TO_POINT
+        MENUITEM "曲面裁剪环",                  IDM_CURVE_FACE_PARAMLOOP
+        MENUITEM SEPARATOR
+        POPUP "样条曲线转换"
+        BEGIN
+            MENUITEM "转为样条曲线",                IDM_CURVE_TOBSPLINECURVE
+            MENUITEM "组合曲线拼接",                IDM_CURVE_CONCAT_TO_SPLINE
+
+        END
+        POPUP "样条曲线编辑"
+        BEGIN
+            MENUITEM "控制点编辑",                  IDM_CURVE_CTRLPNT_EDIT
+            MENUITEM "线上点编辑",                  IDM_CURVE_CURPNT_EDIT
+            MENUITEM "升阶",                        IDM_CURVE_BSPLINE_INCDEGREE
+
+            MENUITEM "插入控制点",                  IDM_CURVE_BSPLINE_INSERT_CTRLPNT
+
+            MENUITEM "插入结点",                    33219
+            MENUITEM "增加控制点",                  33222
+        END
+        POPUP "Bezier曲线编辑"
+        BEGIN
+            MENUITEM "编辑控制点",                  IDM_BEZIER_EDIT_CTRLPNT
+            MENUITEM "升阶",                        IDM_BEZIER_INCDEGREE
+        END
+        MENUITEM SEPARATOR
+        POPUP "活动标架"
+        BEGIN
+            MENUITEM "Frenet标架",                  IDM_CURVE_FRAME_FRENET
+            MENUITEM "旋转标架1",                   IDM_CURVE_FRAME_ROTATE1
+            MENUITEM "旋转标架2",                   IDM_CURVE_FRAME_ROTATE2
+            MENUITEM "sloan标架",                   IDM_CURVE_FRAME_SLOAN
+            MENUITEM "双映射标架",                  IDM_CURVE_FRAME_DBLREFLECTION
+
+        END
+        POPUP "wire分析和修正"
+        BEGIN
+            MENUITEM "闭合分析",                    33097
+            MENUITEM "闭合修正",                    IDM_WIRE_FIX_CLOSED
+            MENUITEM "全部修正",                    IDM_WIRE_FIX_ALL
+            MENUITEM "修正缝隙",                    IDM_WIRE_FIXGAPS
+        END
+    END
+    POPUP "曲面"
+    BEGIN
+        POPUP "平面"
+        BEGIN
+            MENUITEM "对角平面",                    ID_MENU_PLANE_TWOPOINT
+            MENUITEM "三点平面",                    ID_MENU_PLANE_THREEPOINT
+            MENUITEM "矢量平面",                    ID_MENU_PLANE_NORMAL
+            MENUITEM SEPARATOR
+            MENUITEM "曲线所在平面",                IDM_PLANE_FROM_WIRE
+            MENUITEM "垂直曲线",                    ID_MENU_PLANE_CURVEPOINT
+            MENUITEM "切于曲面",                    ID_MENU_PLANE_FACEPOINT
+            MENUITEM "物体上点",                    ID_MENU_PLANE_SHAPEPOINT
+        END
+        MENUITEM "球面",                        ID_32782
+        MENUITEM "旋转面",                      IDM_SURF_REVOL
+        MENUITEM "拉伸面",                      ID_MENU_SURF_PRISM
+        MENUITEM "双向拉伸",                    IDM_SURF_PRISM_TWODIR
+        MENUITEM "点生成面",                    IDM_SURF_POINTCLOUD
+        POPUP "闭合面"
+        BEGIN
+            MENUITEM "闭合多段线",                  ID_MENU_CLOSED_POLYLINE
+            MENUITEM "平面闭合曲线",                32920
+            MENUITEM "多环裁剪平面",                33093
+        END
+        MENUITEM SEPARATOR
+        POPUP "过渡面"
+        BEGIN
+            MENUITEM "点云生成面",                  32866
+            MENUITEM "两曲面过渡",                  ID_MENU_BLEND_SURF
+            MENUITEM "两曲面点约束过渡",            ID_MENU_BLEND_SURF_POINT
+            MENUITEM "两曲面线约束过渡",            ID_MENU_BLEND_SURF_CURVE
+        END
+        MENUITEM "N边补洞",                     ID_MENU_NPATCH_FILL
+        MENUITEM "BSpline填充曲面",             ID_MENU_BSPL_FILLSURF
+        MENUITEM SEPARATOR
+        MENUITEM "蒙面",                        ID_MENU_SURF_LOFT
+        MENUITEM "管道",                        ID_MENU_SURF_PIPE
+        MENUITEM "偏移",                        ID_MENU_SURF_OFFSET
+        POPUP "扫掠"
+        BEGIN
+            MENUITEM "单轨扫掠",                    IDM_SURF_SWEEP_CURVE
+            MENUITEM "面上线轨道扫掠",              IDM_SURF_SWEEP_CURVEONSURF
+
+            MENUITEM "定从法向扫掠",                IDM_SURF_SWEEP_CONT_BINORM
+
+            MENUITEM "双轨扫掠",                    IDM_SURF_SWEEP_DOUBLE_PATH
+
+        END
+        MENUITEM "缝合",                        ID_MENU_SEWSURF
+        POPUP "补面"
+        BEGIN
+            MENUITEM "边界限定",                    ID_MENU_SURF_FILLING
+            MENUITEM "带约束点",                    ID_MENU_SURF_FILLINT_POINT
+
+            MENUITEM "带约束曲线",                  ID_MENU_SURF_FILLING_CURVE
+
+            MENUITEM "带约束面",                    ID_MENU_SURF_FILLING_FACE
+
+        END
+        MENUITEM "裁剪",                        ID_MENU_SURF_CUT
+        MENUITEM "延伸",                        IDM_SURF_EXTENT_BYLEN
+        MENUITEM SEPARATOR
+        MENUITEM "炸开成面",                    ID_MENU_EXTRA_FACE
+        MENUITEM "组合面",                      ID_33012
+        MENUITEM SEPARATOR
+        MENUITEM "转为样条曲面",                IDM_SURF_TOBSPLINESURF
+        POPUP "样条曲面编辑"
+        BEGIN
+            MENUITEM "控制点编辑",                  IDM_SURF_CTRLPNT_EDIT
+            MENUITEM "面上点编辑",                  IDM_SURF_SURFPNT_EDIT
+            MENUITEM "升阶",                        IDM_SURF_BSPLINE_INCDEGREE
+
+            MENUITEM "插入控制点",                  IDM_SURF_BSPLINE_INSERT_CTRLPNT
+
+            MENUITEM "插入结点",                    33220
+            MENUITEM "增加控制点",                  IDM_SURF_BSPLINE_ADD_CTRLPNTS
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "获取原始曲面",                IDM_SURF_RAWSURF
+        MENUITEM "抽取曲面",                    33090
+        MENUITEM SEPARATOR
+        POPUP "分析和修正"
+        BEGIN
+            MENUITEM "曲面分析",                    IDM_SURF_FACE_ANAYLS
+            MENUITEM "曲面修正",                    IDM_SURF_FACE_FIX
+        END
+        POPUP "分割"
+        BEGIN
+            MENUITEM "平面分割",                    IDM_SURF_SPLITPLANE
+            MENUITEM "曲面分割",                    IDM_SURF_SPLITSURF
+        END
+        MENUITEM SEPARATOR
+    END
+    POPUP "实体(&S)"
+    BEGIN
+        POPUP "球体(&S)"
+        BEGIN
+            MENUITEM "整球",                        ID_BREPPRIM_SPHERE
+            MENUITEM "带角度球",                    ID_BREPPRIM_SPHERE_ANGLE
+        END
+        POPUP "柱体(&C)"
+        BEGIN
+            MENUITEM "柱体",                        ID_BREPPRIM_CYL
+            MENUITEM "带角度柱体",                  ID_BREPPRIM_CYL_ANGLE
+        END
+        POPUP "锥体(&O)"
+        BEGIN
+            MENUITEM "圆锥",                        ID_BREPPRIM_CONE
+            MENUITEM "平顶圆锥",                    ID_BREPPRIM_CONE_TOPPLANE
+
+        END
+        MENUITEM "长方体(&B)",                  ID_BREPPRIM_BOX
+        MENUITEM "圆环(&T)",                    ID_BREPPRIM_TORUS
+        MENUITEM SEPARATOR
+        MENUITEM "拉伸(&L)",                    ID_MENU_PRISM
+        MENUITEM "双向拉伸",                    ID_MENU_PRISM_TWODIR
+        MENUITEM "旋转",                        ID_MENU_REVOL
+        MENUITEM "扫掠",                        ID_MENU_BREP_SWEEP
+        MENUITEM "偏移",                        ID_MENU_SOLID_OFFSET
+        MENUITEM "抽壳",                        ID_MENU_THICKSHELL
+        MENUITEM SEPARATOR
+        POPUP "倒圆角"
+        BEGIN
+            MENUITEM "等半径",                      ID_FILLET_CONR
+            MENUITEM "变半径",                      ID_FILLET_VARR
+        END
+        POPUP "倒直角"
+        BEGIN
+            MENUITEM "等半径",                      32852
+        END
+        MENUITEM SEPARATOR
+        POPUP "布尔运算"
+        BEGIN
+            MENUITEM "交",                          ID_MENU_BOOL_COMMON
+            MENUITEM "并",                          ID_MENU_BOOL_FUSE
+            MENUITEM "差",                          ID_MENU_BOOL_CUT
+            MENUITEM SEPARATOR
+            MENUITEM "交运算生产交线",              IDM_BOOL_COMMON_SECTIONS
+            MENUITEM "交运算对象1生产对象",         IDM_BOOL_COMMON_SHAPE1_OBJS
+
+            MENUITEM "交运算对象2生产对象",         IDM_BOOL_COMMON_SHAPE2_OBJS
+
+        END
+        POPUP "旧的布尔运算"
+        BEGIN
+            MENUITEM "交",                          IDM_OLDBOOL_COMMON
+            MENUITEM "并",                          IDM_OLDBOOL_FUSE
+            MENUITEM "差",                          IDM_OLDBOOL_CUT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "蒙面",                        ID_MENU_SOLID_LOFT
+        MENUITEM "管道",                        ID_MENU_SOLID_PIPE
+        MENUITEM "裁剪",                        ID_MENU_SOLID_CUT
+        MENUITEM SEPARATOR
+        MENUITEM "组合",                        IDM_SOLID_COMPOUND
+        MENUITEM "取消组合",                    IDM_SOLID_UNCOMPOUND
+        MENUITEM SEPARATOR
+        MENUITEM "BSpline转换",                 33186
+    END
+    POPUP "网格"
+    BEGIN
+        POPUP "导入"
+        BEGIN
+            MENUITEM "ASCII STL",                   IDM_MESH_IMPORT_STL
+            MENUITEM "BINARY STL",                  IDM_MESH_IMPORT_BIN_STL
+            MENUITEM "ms3d file",                   33235
+            MENUITEM "3ds  file",                   33236
+        END
+        POPUP "导出"
+        BEGIN
+            MENUITEM "ASCII STL",                   IDM_MESH_EXPORT_ASC_STL
+            MENUITEM "BINARY STL",                  IDM_MESH_EXPORT_BIN_STL
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "转换为网格",                  IDM_MESH_CONVERT_TO_MESH
+    END
+    POPUP "变换"
+    BEGIN
+        MENUITEM "平移(&M)",                    ID_MENU_MOVING
+        MENUITEM "旋转(&R)",                    ID_MENU_ROTATE
+        MENUITEM "缩放(&S)",                    ID_MENU_SCALE
+        MENUITEM "镜像(&J)",                    ID_MENU_MIRROR
+        MENUITEM SEPARATOR
+        MENUITEM "复制",                        ID_MENU_OBJ_CLONE
+        MENUITEM "重复复制",                    ID_MENU_OBJ_MULTI_CLONE
+        MENUITEM SEPARATOR
+        MENUITEM "FFD",                         ID_TRSF_FFD
+        MENUITEM "矩形FFD",                     IDM_FFD_RECTFFD
+        MENUITEM "直线FFD",                     ID_33249
+        MENUITEM SEPARATOR
+        MENUITEM "AxDF",                        33195
+        MENUITEM "SurfFFD-Feng",                33218
+        MENUITEM "沿曲线流动",                  IDM_FFD_FLOW_BY_CURVE
+        MENUITEM "沿曲面流动",                  IDM_FFD_FLOW_ON_SURF
+        MENUITEM "倾斜",                        33260
+        MENUITEM "弯曲",                        IDM_FFD_BEND
+        MENUITEM "扭转",                        IDM_FFD_TWIST
+        MENUITEM SEPARATOR
+        MENUITEM "控制点插入测试",              IDM_TRSF_INSERT_CTRLPNTS_TEST
+
+    END
+    POPUP "显示(&D)"
+    BEGIN
+        MENUITEM "线框",                        IDM_DISP_WIREFRAME
+        MENUITEM "着色",                        IDM_DISP_SHADE
+        MENUITEM "纹理...",                     IDM_DISP_TEXTURE
+        MENUITEM SEPARATOR
+        MENUITEM "颜色...",                     IDM_DISP_COLOR
+        MENUITEM "材质..",                      IDM_DISP_MATERIAL
+        MENUITEM "透明度..",                    IDM_DISP_TRANSPARENCY
+        MENUITEM SEPARATOR
+        MENUITEM "剖切...",                     IDM_DISP_CUTPLANE
+        MENUITEM SEPARATOR
+        MENUITEM "网格",                        IDM_DISP_MESH
+        MENUITEM "对象选择区域",                IDM_TOOL_OBJ_SELECT_SENREGION
+
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "对象结构...",                 ID_MENU_SHAPE_STRUCT
+        POPUP "文字"
+        BEGIN
+            MENUITEM "线框",                        IDM_TEXT_CURVE
+            MENUITEM "曲面",                        IDM_TEXT_FACE
+            MENUITEM "实体",                        IDM_TEXT_SOLID
+        END
+        POPUP "检查"
+        BEGIN
+            MENUITEM "有效性",                      IDM_CHECK_VALID
+            MENUITEM "拓扑有效性",                  IDM_CHECK_TOPO_VALID
+            MENUITEM "是否闭合",                    IDM_CHECK_CLOSED
+        END
+    END
+    POPUP "分析(&Z)"
+    BEGIN
+        MENUITEM "视属性...",                   IDM_VIEW_ATTRS
+        MENUITEM SEPARATOR
+        MENUITEM "曲线曲率圆",                  IDM_TOOL_CURVE_CURVATURE
+        MENUITEM "曲线长度",                    IDM_ANALY_CURVE_LENGTH
+        POPUP "曲线切矢"
+        BEGIN
+            MENUITEM "单一曲线切矢",                IDM_TOOL_CURVE_SING_TANG
+            MENUITEM "曲面边界切矢",                IDM_TOOL_FACEBND_TANG
+        END
+        MENUITEM "由3d曲线生成参数曲线",        IDM_TOOL_CURVE2D
+        MENUITEM SEPARATOR
+        MENUITEM "曲面面积",                    IDM_ANALY_FACE_AREA
+        MENUITEM "曲面法线",                    IDM_TOOL_FACENORM
+        MENUITEM "曲面的裁剪环信息",            IDM_TOOL_SURF_TRIMLOOP
+        MENUITEM SEPARATOR
+        MENUITEM "STEP文件批量裁剪环信息",      33070
+        POPUP "STEP文件裁剪环信息"
+        BEGIN
+            MENUITEM "详细信息",                    IDM_TOOL_TRMLOOP_DETAIL
+            MENUITEM "问题信息",                    IDM_TOOL_TRMLOOP_ERR
+            MENUITEM "严重问题信息",                IDM_TOOL_TRMLOOP_FATAL
+            MENUITEM "保存问题面",                  IDM_TOOL_TRMLOOP_ERRFACE
+            MENUITEM "保存严重问题面",              IDM_TOOL_TRMLOOP_FATALFACE
+
+        END
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建窗口(&N)",                ID_WINDOW_NEW
+        MENUITEM "层叠(&C)",                    ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                    ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                ID_WINDOW_ARRANGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 OccTry(&A)...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "关于 OccTry"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "OccTry Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_INPUT_DIALOG DIALOGEX 0, 0, 116, 40
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,12,24,50,14
+    PUSHBUTTON      "取消",IDCANCEL,64,24,50,14
+    GROUPBOX        "",IDC_STATIC,0,0,114,23
+    EDITTEXT        IDC_EDIT_INPUT,3,6,108,14,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_OFFSETSHAPE DIALOGEX 0, 0, 168, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,111,73,50,14
+    GROUPBOX        "Offset mode",IDC_STATIC,7,7,154,31
+    GROUPBOX        "Join type",IDC_STATIC,7,39,154,31
+    COMBOBOX        IDC_COMBO_OFFMODE,15,19,138,46,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_JOINTYPE,15,50,138,51,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_PIPESHELL DIALOGEX 0, 0, 178, 144
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "扫掠选项对话框"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,121,123,50,14
+    GROUPBOX        "扫掠类型",IDC_STATIC,7,4,164,33
+    COMBOBOX        IDC_COMBO_SWEEPTYPE,13,16,151,121,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "辅助选项",IDC_STATIC,7,42,164,76
+    LTEXT           "Normal:",IDC_STATIC,13,58,26,8
+    EDITTEXT        IDC_EDIT_NORMAL,50,54,114,14,ES_AUTOHSCROLL
+    LTEXT           "XDIR:",IDC_STATIC,13,76,20,8
+    EDITTEXT        IDC_EDIT_XDIR,50,72,113,14,ES_AUTOHSCROLL
+    LTEXT           "Location:",IDC_STATIC,13,95,30,8
+    EDITTEXT        IDC_EDIT_LOC,50,91,113,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_FILLING_OPTIONS DIALOGEX 0, 0, 169, 97
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "补面参数"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,112,76,50,14
+    GROUPBOX        "静态",IDC_STATIC,7,7,155,69
+    LTEXT           "拟合阶数:",IDC_STATIC,20,21,36,8
+    EDITTEXT        IDC_EDIT_DEGREE,77,18,68,14,ES_AUTOHSCROLL
+    LTEXT           "曲线采样点数:",IDC_STATIC,20,38,52,8
+    EDITTEXT        IDC_EDIT_NBPNTSONCURVE,77,35,67,14,ES_AUTOHSCROLL
+    LTEXT           "迭代次数:",IDC_STATIC,20,56,36,8
+    EDITTEXT        IDC_EDIT_NBITER,77,53,67,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_SHAPE_STRUCT DIALOGEX 0, 0, 302, 249
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "shape结构对话框"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,245,228,50,14
+    GROUPBOX        "",IDC_STATIC,7,3,288,222
+    CONTROL         "",IDC_TREE_SHAPE_STRUCT,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    7,9,287,212
+END
+
+IDD_DIALOG_VIEW_ATTRBS DIALOGEX 0, 0, 282, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "视属性对话框"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,225,177,50,14
+    EDITTEXT        IDC_EDIT_VIEW_ATTRIBS,7,7,267,163,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_NOHIDESEL | ES_WANTRETURN
+END
+
+IDD_DIALOG_TEXTURE DIALOGEX 0, 0, 362, 277
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "纹理对话框"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,251,256,50,14
+    PUSHBUTTON      "取消",IDCANCEL,305,256,50,14
+    GROUPBOX        "纹理文件路径",IDC_STATIC,7,7,348,35
+    EDITTEXT        IDC_EDIT_TEXTURE_FILE,18,19,299,14,ES_AUTOHSCROLL
+    PUSHBUTTON      ">>",IDC_BUTTON_SELFILE,325,19,20,14
+    GROUPBOX        "图片预览",IDC_STATIC,7,45,185,161
+    GROUPBOX        "图片属性",IDC_STATIC,196,45,159,162
+    GROUPBOX        "纹理设置",IDC_STATIC,7,208,348,40
+    PUSHBUTTON      "应用",IDC_BUTTON_APPLY,196,256,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "OccTry.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "OccTry.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "翻译", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_INPUT_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 114
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_DIALOG_OFFSETSHAPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_DIALOG_PIPESHELL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_DIALOG_FILLING_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_DIALOG_SHAPE_STRUCT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG_VIEW_ATTRBS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_DIALOG_TEXTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "OccTry"
+    IDR_OccTryTYPE          "\nOccTry\nOccTry\nBRep File (*.BRep)\n.BRep\nOccTry.Document\nOccTry.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "OccTry"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机选项和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "为活动文档打开另一个窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "以重叠方式排列窗口\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "以非重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "以非重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+    AFX_IDS_MDICHILD        "激活此窗口"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预览"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IND_LOC             "0,0,0"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_MENU_CSPROJ          "曲线投影到曲面"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_SURF_OFFSET_SURF    "对选定的曲面进行偏移"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_FACE_MULTILOOP      "从多个平面环构成的裁剪平面"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_33131                "使用曲面分割曲面"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\OccTry.rc2"  // 非 Microsoft Visual C++ 编辑资源
+#include "afxres.rc"         // 标准组件
+#include "afxprint.rc"       // 打印/打印预览资源
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

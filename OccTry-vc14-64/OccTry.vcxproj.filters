@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{bdc0dfea-a93a-48ce-9312-486cfd5f10fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sizecbar">
+      <UniqueIdentifier>{3744d8a1-5cfb-4c0d-80d6-1b32cef2c6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deform">
+      <UniqueIdentifier>{85664101-9201-4a7e-a6e4-9467dc4024d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OccTry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OccTryDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OccTryView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScDlgViewAttribs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScInputBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScInputEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScInputMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScSnapMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScUcsMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeStructDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScBRepLib.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdAnalysis.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdAxDF.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdBoolean.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdBRepPrim.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdBSpline.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdCurve.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdCurveBase.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdCurveCreate.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdCurveEdit.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdDisplay.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdEdit.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFace.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFaceBase.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFeat.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFD.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFDBend.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFDLine.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFDRect.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFDTaper.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFFDTwist.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFillet.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFlowByCurve.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdFlowBySurf.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdGeom.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdMeshEdit.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdMeshExport.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdMgr.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdOffset.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdPlane.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdPlate.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdPoint.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdShear.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdSurface.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdSurfFFD.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdText.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdTool.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdTrsf.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdUcs.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCmdWire.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScCommand.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScDlgFillingOptions.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScDlgSweepOption.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScDlgTexture.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScOffsetShapeDlg.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScTools.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\ScUndoMgr.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="sizecbar\scbarcf.cpp">
+      <Filter>sizecbar</Filter>
+    </ClCompile>
+    <ClCompile Include="sizecbar\scbarg.cpp">
+      <Filter>sizecbar</Filter>
+    </ClCompile>
+    <ClCompile Include="sizecbar\sizecbar.cpp">
+      <Filter>sizecbar</Filter>
+    </ClCompile>
+    <ClCompile Include="deform\FFDAlgo.cpp">
+      <Filter>deform</Filter>
+    </ClCompile>
+    <ClCompile Include="deform\FFDObj.cpp">
+      <Filter>deform</Filter>
+    </ClCompile>
+    <ClCompile Include="deform\FFDRmf.cpp">
+      <Filter>deform</Filter>
+    </ClCompile>
+    <ClCompile Include="deform\FFDTool.cpp">
+      <Filter>deform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OccTry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OccTryDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OccTryView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScDlgViewAttribs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScInputBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScInputEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScInputMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScSnapMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScUcsMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeStructDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScBRepLib.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdAnalysis.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdAxDF.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdBoolean.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdBRepPrim.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdBSpline.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdCurve.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdCurveBase.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdCurveCreate.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdCurveEdit.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdDisplay.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdEdit.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFace.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFaceBase.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFeat.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFD.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFDBend.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFDLine.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFDRect.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFDTaper.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFFDTwist.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFillet.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFlowByCurve.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdFlowBySurf.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdGeom.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdMeshEdit.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdMeshExport.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdMgr.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdOffset.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdPlane.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdPlate.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdPoint.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdShear.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdSurface.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdSurfFFD.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdText.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdTool.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdTrsf.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdUcs.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCmdWire.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScCommand.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScDlgFillingOptions.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScDlgSweepOption.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScDlgTexture.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScOffsetShapeDlg.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScTools.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\ScUndoMgr.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="sizecbar\scbarcf.h">
+      <Filter>sizecbar</Filter>
+    </ClInclude>
+    <ClInclude Include="sizecbar\scbarg.h">
+      <Filter>sizecbar</Filter>
+    </ClInclude>
+    <ClInclude Include="sizecbar\sizecbar.h">
+      <Filter>sizecbar</Filter>
+    </ClInclude>
+    <ClInclude Include="deform\FFDAlgo.h">
+      <Filter>deform</Filter>
+    </ClInclude>
+    <ClInclude Include="deform\FFDObj.h">
+      <Filter>deform</Filter>
+    </ClInclude>
+    <ClInclude Include="deform\FFDRmf.h">
+      <Filter>deform</Filter>
+    </ClInclude>
+    <ClInclude Include="deform\FFDTool.h">
+      <Filter>deform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OccTry.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\OccTryDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OccTry.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OccTry.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

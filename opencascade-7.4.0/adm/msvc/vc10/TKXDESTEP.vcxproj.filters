@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{ED52240A-0421-0203-1654-589A21EF2AC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{E0BE578F-131C-037F-14C8-9AC5F239BF49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STEPCAFControl">
+      <UniqueIdentifier>{3D783479-0C9C-0E32-02E9-304428CADCC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STEPCAFControl">
+      <UniqueIdentifier>{63C3230A-0B25-1929-0B35-0F433004195F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_ActorWrite.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Controller.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_ExternFile.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_GDTProperty.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Reader.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Writer.cxx">
+      <Filter>Source files\STEPCAFControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_ActorWrite.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Controller.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfLabelShape.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfPDExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfSDRExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapePD.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapIteratorOfDataMapOfShapeSDR.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfLabelShape.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfPDExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfSDRExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfShapePD.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_DataMapOfShapeSDR.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_ExternFile.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_ExternFile.lxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_GDTProperty.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Reader.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\STEPCAFControl\STEPCAFControl_Writer.hxx">
+      <Filter>Header files\STEPCAFControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXDESTEP.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1691E3E-ECF5-401D-8DB1-95B9DC858478}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.29403.142</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(CASROOT)\inc;.;..\Common;.\src;D:\OpenCasCade\win32\samples\standard\mfc\Common;.\Command;.\sizecbar;.\CxImage;.\mesh;.\deform;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WNT;CSFDB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TKBRep.lib;FWOSPlugin.lib;PTKernel.lib;TKBool.lib;TKCAF.lib;TKCDF.lib;TKDraw.lib;TKernel.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKMath.lib;TKOffset.lib;TKPCAF.lib;TKPrim.lib;TKPShape.lib;TKService.lib;TKTopAlgo.lib;TKV2d.lib;TKV3d.lib;mfcsample.lib;TKXSBase.lib;TKBo.lib;TKMesh.lib;TKShHealing.lib;TKStep.lib;TKIGES.lib;cximage.lib;TKMeshVS.lib;TKSTL.lib;TKVRML.lib;TKXDEDRAW.lib;TKXSDRAW.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(CASROOT)\win32\libd;D:\OpenCasCade\win32\samples\standard\mfc\mfcsample\Debug;.\CxImage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\opencascade-7.4.0\inc;.\Command;.\sizecbar;.\CxImage;.\mesh;.\deform;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;_DEBUG;WNT;CSFDB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TKBRep.lib;TKBool.lib;TKCAF.lib;TKCDF.lib;TKDraw.lib;TKernel.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKMath.lib;TKOffset.lib;TKPrim.lib;TKService.lib;TKTopAlgo.lib;TKV3d.lib;TKXSBase.lib;TKBo.lib;TKMesh.lib;TKShHealing.lib;TKStep.lib;TKIGES.lib;TKMeshVS.lib;TKSTL.lib;TKVRML.lib;TKXDEDRAW.lib;TKXSDRAW.lib;TKOpenGL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\opencascade-7.4.0\win64\vc14\lib;.\CxImage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(CASROOT)\inc;.;..\Common;.\src;D:\OpenCasCade\win32\samples\standard\mfc\Common;.\Command;.\sizecbar;.\CxImage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TKBRep.lib;FWOSPlugin.lib;PTKernel.lib;TKBool.lib;TKCAF.lib;TKCDF.lib;TKDraw.lib;TKernel.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKMath.lib;TKOffset.lib;TKPCAF.lib;TKPrim.lib;TKPShape.lib;TKService.lib;TKTopAlgo.lib;TKV2d.lib;TKV3d.lib;mfcsample.lib;TKXSBase.lib;TKBo.lib;TKMesh.lib;TKShHealing.lib;TKStep.lib;TKIGES.lib;cximage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(CASROOT)\win32\lib;D:\OpenCasCade\win32\samples\standard\mfc\mfcsample\release;.\CxImage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\opencascade-7.4.0\inc;.\Command;.\sizecbar;.\CxImage;.\mesh;.\deform;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WIN64;_WINDOWS;NDEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TKBRep.lib;TKBool.lib;TKCAF.lib;TKCDF.lib;TKDraw.lib;TKernel.lib;TKFeat.lib;TKFillet.lib;TKG2d.lib;TKG3d.lib;TKGeomAlgo.lib;TKGeomBase.lib;TKHLR.lib;TKMath.lib;TKOffset.lib;TKPrim.lib;TKService.lib;TKTopAlgo.lib;TKV3d.lib;TKXSBase.lib;TKBo.lib;TKMesh.lib;TKShHealing.lib;TKStep.lib;TKIGES.lib;TKMeshVS.lib;TKSTL.lib;TKVRML.lib;TKXDEDRAW.lib;TKXSDRAW.lib;TKOpenGL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\opencascade-7.4.0\win64\vc14\lib;.\CxImage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="Command\ScBRepLib.cpp" />
+    <ClCompile Include="Command\ScCmdAnalysis.cpp" />
+    <ClCompile Include="Command\ScCmdAxDF.cpp" />
+    <ClCompile Include="Command\ScCmdBoolean.cpp" />
+    <ClCompile Include="Command\ScCmdBRepPrim.cpp" />
+    <ClCompile Include="Command\ScCmdBSpline.cpp" />
+    <ClCompile Include="Command\ScCmdCurve.cpp" />
+    <ClCompile Include="Command\ScCmdCurveBase.cpp" />
+    <ClCompile Include="Command\ScCmdCurveCreate.cpp" />
+    <ClCompile Include="Command\ScCmdCurveEdit.cpp" />
+    <ClCompile Include="Command\ScCmdDisplay.cpp" />
+    <ClCompile Include="Command\ScCmdEdit.cpp" />
+    <ClCompile Include="Command\ScCmdFace.cpp" />
+    <ClCompile Include="Command\ScCmdFaceBase.cpp" />
+    <ClCompile Include="Command\ScCmdFeat.cpp" />
+    <ClCompile Include="Command\ScCmdFFD.cpp" />
+    <ClCompile Include="Command\ScCmdFFDBend.cpp" />
+    <ClCompile Include="Command\ScCmdFFDLine.cpp" />
+    <ClCompile Include="Command\ScCmdFFDRect.cpp" />
+    <ClCompile Include="Command\ScCmdFFDTaper.cpp" />
+    <ClCompile Include="Command\ScCmdFFDTwist.cpp" />
+    <ClCompile Include="Command\ScCmdFillet.cpp" />
+    <ClCompile Include="Command\ScCmdFlowByCurve.cpp" />
+    <ClCompile Include="Command\ScCmdFlowBySurf.cpp" />
+    <ClCompile Include="Command\ScCmdGeom.cpp" />
+    <ClCompile Include="Command\ScCmdMeshEdit.cpp" />
+    <ClCompile Include="Command\ScCmdMeshExport.cpp" />
+    <ClCompile Include="Command\ScCmdMgr.cpp" />
+    <ClCompile Include="Command\ScCmdOffset.cpp" />
+    <ClCompile Include="Command\ScCmdPlane.cpp" />
+    <ClCompile Include="Command\ScCmdPlate.cpp" />
+    <ClCompile Include="Command\ScCmdPoint.cpp" />
+    <ClCompile Include="Command\ScCmdShear.cpp" />
+    <ClCompile Include="Command\ScCmdSurface.cpp" />
+    <ClCompile Include="Command\ScCmdSurfFFD.cpp" />
+    <ClCompile Include="Command\ScCmdText.cpp" />
+    <ClCompile Include="Command\ScCmdTool.cpp" />
+    <ClCompile Include="Command\ScCmdTrsf.cpp" />
+    <ClCompile Include="Command\ScCmdUcs.cpp" />
+    <ClCompile Include="Command\ScCmdWire.cpp" />
+    <ClCompile Include="Command\ScCommand.cpp" />
+    <ClCompile Include="Command\ScDlgFillingOptions.cpp" />
+    <ClCompile Include="Command\ScDlgSweepOption.cpp" />
+    <ClCompile Include="Command\ScDlgTexture.cpp" />
+    <ClCompile Include="Command\ScOffsetShapeDlg.cpp" />
+    <ClCompile Include="Command\ScTools.cpp" />
+    <ClCompile Include="Command\ScUndoMgr.cpp" />
+    <ClCompile Include="deform\FFDAlgo.cpp" />
+    <ClCompile Include="deform\FFDObj.cpp" />
+    <ClCompile Include="deform\FFDRmf.cpp" />
+    <ClCompile Include="deform\FFDTool.cpp" />
+    <ClCompile Include="InputDialog.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OccTry.cpp" />
+    <ClCompile Include="OccTryDoc.cpp" />
+    <ClCompile Include="OccTryView.cpp" />
+    <ClCompile Include="ScDlgViewAttribs.cpp" />
+    <ClCompile Include="ScInput.cpp" />
+    <ClCompile Include="ScInputBar.cpp" />
+    <ClCompile Include="ScInputEdit.cpp" />
+    <ClCompile Include="ScInputMgr.cpp" />
+    <ClCompile Include="ScSnapMgr.cpp" />
+    <ClCompile Include="ScUcsMgr.cpp" />
+    <ClCompile Include="ScView.cpp" />
+    <ClCompile Include="ShapeStructDlg.cpp" />
+    <ClCompile Include="sizecbar\scbarcf.cpp" />
+    <ClCompile Include="sizecbar\scbarg.cpp" />
+    <ClCompile Include="sizecbar\sizecbar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="Command\ScBRepLib.h" />
+    <ClInclude Include="Command\ScCmdAnalysis.h" />
+    <ClInclude Include="Command\ScCmdAxDF.h" />
+    <ClInclude Include="Command\ScCmdBoolean.h" />
+    <ClInclude Include="Command\ScCmdBRepPrim.h" />
+    <ClInclude Include="Command\ScCmdBSpline.h" />
+    <ClInclude Include="Command\ScCmdCurve.h" />
+    <ClInclude Include="Command\ScCmdCurveBase.h" />
+    <ClInclude Include="Command\ScCmdCurveCreate.h" />
+    <ClInclude Include="Command\ScCmdCurveEdit.h" />
+    <ClInclude Include="Command\ScCmdDisplay.h" />
+    <ClInclude Include="Command\ScCmdEdit.h" />
+    <ClInclude Include="Command\ScCmdFace.h" />
+    <ClInclude Include="Command\ScCmdFaceBase.h" />
+    <ClInclude Include="Command\ScCmdFeat.h" />
+    <ClInclude Include="Command\ScCmdFFD.h" />
+    <ClInclude Include="Command\ScCmdFFDBend.h" />
+    <ClInclude Include="Command\ScCmdFFDLine.h" />
+    <ClInclude Include="Command\ScCmdFFDRect.h" />
+    <ClInclude Include="Command\ScCmdFFDTaper.h" />
+    <ClInclude Include="Command\ScCmdFFDTwist.h" />
+    <ClInclude Include="Command\ScCmdFillet.h" />
+    <ClInclude Include="Command\ScCmdFlowByCurve.h" />
+    <ClInclude Include="Command\ScCmdFlowBySurf.h" />
+    <ClInclude Include="Command\ScCmdGeom.h" />
+    <ClInclude Include="Command\ScCmdMeshEdit.h" />
+    <ClInclude Include="Command\ScCmdMeshExport.h" />
+    <ClInclude Include="Command\ScCmdMgr.h" />
+    <ClInclude Include="Command\ScCmdOffset.h" />
+    <ClInclude Include="Command\ScCmdPlane.h" />
+    <ClInclude Include="Command\ScCmdPlate.h" />
+    <ClInclude Include="Command\ScCmdPoint.h" />
+    <ClInclude Include="Command\ScCmdShear.h" />
+    <ClInclude Include="Command\ScCmdSurface.h" />
+    <ClInclude Include="Command\ScCmdSurfFFD.h" />
+    <ClInclude Include="Command\ScCmdText.h" />
+    <ClInclude Include="Command\ScCmdTool.h" />
+    <ClInclude Include="Command\ScCmdTrsf.h" />
+    <ClInclude Include="Command\ScCmdUcs.h" />
+    <ClInclude Include="Command\ScCmdWire.h" />
+    <ClInclude Include="Command\ScCommand.h" />
+    <ClInclude Include="Command\ScDlgFillingOptions.h" />
+    <ClInclude Include="Command\ScDlgSweepOption.h" />
+    <ClInclude Include="Command\ScDlgTexture.h" />
+    <ClInclude Include="Command\ScOffsetShapeDlg.h" />
+    <ClInclude Include="Command\ScTools.h" />
+    <ClInclude Include="Command\ScUndoMgr.h" />
+    <ClInclude Include="deform\FFDAlgo.h" />
+    <ClInclude Include="deform\FFDObj.h" />
+    <ClInclude Include="deform\FFDRmf.h" />
+    <ClInclude Include="deform\FFDTool.h" />
+    <ClInclude Include="InputDialog.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OccTry.h" />
+    <ClInclude Include="OccTryDoc.h" />
+    <ClInclude Include="OccTryView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScDlgViewAttribs.h" />
+    <ClInclude Include="ScInput.h" />
+    <ClInclude Include="ScInputBar.h" />
+    <ClInclude Include="ScInputEdit.h" />
+    <ClInclude Include="ScInputMgr.h" />
+    <ClInclude Include="ScSnapMgr.h" />
+    <ClInclude Include="ScUcsMgr.h" />
+    <ClInclude Include="ScView.h" />
+    <ClInclude Include="ShapeStructDlg.h" />
+    <ClInclude Include="sizecbar\scbarcf.h" />
+    <ClInclude Include="sizecbar\scbarg.h" />
+    <ClInclude Include="sizecbar\sizecbar.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OccTry.ico" />
+    <Image Include="res\OccTryDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OccTry.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OccTry.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="OccTry.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

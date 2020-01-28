@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TKRWMesh" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../../wnt/gcc/bin/libTKRWMesh" imp_lib="../../../wnt/gcc/lib/$(TARGET_OUTPUT_BASENAME)" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option object_output="../../../wnt/gcc/obj" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DNo_Exception" />
+				</Compiler>
+				<Linker>
+					<Add option="@TKRWMesh_obj.link" />
+					<Add directory="../../../wnt/gcc/lib" />
+					<Add option="$(CSF_OPT_LNK64)" />
+				</Linker>
+			</Target>
+			<Target title="Debug">
+				<Option output="../../../wnt/gcc/bind/libTKRWMesh" imp_lib="../../../wnt/gcc/libd/$(TARGET_OUTPUT_BASENAME)" prefix_auto="1" extension_auto="1" />
+				<Option type="3" />
+				<Option object_output="../../../wnt/gcc/objd" />
+				<Option compiler="gcc" />
+				<Option createDefFile="0" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="@TKRWMesh_objd.link" />
+					<Add directory="../../../wnt/gcc/libd" />
+					<Add option="$(CSF_OPT_LNK64D)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mmmx" />
+			<Add option="-msse" />
+			<Add option="-msse2" />
+			<Add option="-mfpmath=sse" />
+			<Add option="-std=gnu++0x" />
+			<Add option="-D_WIN32_WINNT=0x0501" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="$(CSF_OPT_CMPL)" />
+			<Add directory="../../../inc" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--export-all-symbols" />
+			<Add library="TKernel" />
+			<Add library="TKMath" />
+			<Add library="TKMesh" />
+			<Add library="TKXCAF" />
+			<Add library="TKLCAF" />
+			<Add library="TKV3d" />
+			<Add library="TKBRep" />
+			<Add library="TKG3d" />
+			<Add library="TKService" />
+		</Linker>
+		<Unit filename="../../../src/RWGltf/RWGltf_CafReader.cxx" />
+		<Unit filename="../../../src/RWGltf/RWGltf_GltfJsonParser.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWGltf/RWGltf_GltfLatePrimitiveArray.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWGltf/RWGltf_PrimitiveArrayReader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWGltf/RWGltf_TriangulationReader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWMesh/RWMesh_CafReader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWMesh/RWMesh_CoordinateSystemConverter.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWObj/RWObj.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWObj/RWObj_CafReader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWObj/RWObj_MtlReader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWObj/RWObj_Reader.cxx">
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../../../src/RWObj/RWObj_TriangulationReader.cxx">
+			<Option link="0" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

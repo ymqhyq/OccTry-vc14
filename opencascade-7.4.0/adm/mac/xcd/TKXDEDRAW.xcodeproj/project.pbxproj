@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+		1146050604CE085B198212EA = {isa = PBXBuildFile; fileRef = 026A0C5C108A0836066D1730 ;};
+		108F0397029F077A11A01077 = {isa = PBXBuildFile; fileRef = 18A60DB106D30BC00AEE1351 ;};
+		193C181714E60F8018ED0BDE = {isa = PBXBuildFile; fileRef = 0F4705AF02FD0BBD0AAB08E6 ;};
+		00070C91168F15F40E4B0E02 = {isa = PBXBuildFile; fileRef = 0D8B06FF140A183B04E616BD ;};
+		16E50BBE06BC0CA113B41924 = {isa = PBXBuildFile; fileRef = 026C103F055C03D70AFE1048 ;};
+		05300A80075010FA17530EDD = {isa = PBXBuildFile; fileRef = 0F2603D5113E042D01CB1491 ;};
+		15531922051A126A03441476 = {isa = PBXBuildFile; fileRef = 136906EE07620D0A09E3145A ;};
+		119C045A14B1033F068A1393 = {isa = PBXBuildFile; fileRef = 11E9197C1106121015B11423 ;};
+		0B940239058B0657032B15E4 = {isa = PBXBuildFile; fileRef = 15620637069111B209850F0D ;};
+
+		161F0D6F03860F48123E0319 = {isa = PBXBuildFile; fileRef = 0AB9028807C0088E112100B3 ; };
+		02E7064D02F00A4F02670C36 = {isa = PBXBuildFile; fileRef = 0A8B0AA50BB30D4C0940129D ; };
+		0C0E191C0CC612B6138217F0 = {isa = PBXBuildFile; fileRef = 03600C9903EA0EB30CAF185C ; };
+		06970AEF11FD041A0AA002C9 = {isa = PBXBuildFile; fileRef = 11F00CD419000C4B0A1E0BF0 ; };
+		1070194E0AD40C2813930DCA = {isa = PBXBuildFile; fileRef = 0CC610D91949030002591072 ; };
+		0D69010116D60F0B103308C6 = {isa = PBXBuildFile; fileRef = 17B61249085F11650C3D098A ; };
+		0D9C03210B810ACB045F1072 = {isa = PBXBuildFile; fileRef = 14CB171903D203CF051A0A21 ; };
+		159E0239163D0C9A0BBF195C = {isa = PBXBuildFile; fileRef = 0F77126B17B8050E18280149 ; };
+		0985051D0B1817CB02F30C44 = {isa = PBXBuildFile; fileRef = 186D01FA061403DD004A0A50 ; };
+		10670962110204F210F90AAC = {isa = PBXBuildFile; fileRef = 017018EB0BF8123D01F31274 ; };
+		051608860F29005303CE1155 = {isa = PBXBuildFile; fileRef = 1786058F1441025B013D0ECD ; };
+		02A219621309161016B20C6F = {isa = PBXBuildFile; fileRef = 196D0AF6151702A81662103B ; };
+		066B0198016113B1195F0BE8 = {isa = PBXBuildFile; fileRef = 151506C511B218F303950A1F ; };
+		178610530E7E044401F30A7E = {isa = PBXBuildFile; fileRef = 088B0A8C1744185A043F0A7F ; };
+		1920081F0C8F084101D106CC = {isa = PBXBuildFile; fileRef = 120E0EDB08890FEA15DC0641 ; };
+		005F0F9B041C136200B90537 = {isa = PBXBuildFile; fileRef = 15FC10720C7E193001A20160 ; };
+		049409970565147E12AA13C8 = {isa = PBXBuildFile; fileRef = 13260DC4051B17EC12DD0494 ; };
+		0076031E057318E610BD1828 = {isa = PBXBuildFile; fileRef = 076E010900EA16930AE90231 ; };
+		00130F8207AA08A3102D10F8 = {isa = PBXBuildFile; fileRef = 0FFD121300840B4B17540508 ; };
+		014410B7149B086607D712B0 = {isa = PBXBuildFile; fileRef = 030E10D91134180116710210 ; };
+		02290B2F054900FF0A281445 = {isa = PBXBuildFile; fileRef = 01B417C5159A05C318C016EA ; };
+		152118620E3908650A921300 = {isa = PBXBuildFile; fileRef = 0D881594147314F716FB1702 ; };
+		08DA113F18D20365006001CE = {isa = PBXBuildFile; fileRef = 16B011A117E30EBA15E50B67 ; };
+		025C10BA02151387131C03B9 = {isa = PBXBuildFile; fileRef = 021B0E0F1130178D0ACD0F32 ; };
+		1088062002320E2017B118F7 = {isa = PBXBuildFile; fileRef = 16790083006E153D122117C4 ; };
+		00340B4518AB148109E3019B = {isa = PBXBuildFile; fileRef = 18B701F00F96045410A6016E ; };
+		07450D9310180EB9006E0A6E = {isa = PBXBuildFile; fileRef = 13320D7C1543143119710C7D ; };
+
+		122808E905121242089A0D2B = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTKXDEDRAW.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		026A0C5C108A0836066D1730 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW.cxx; path = ../../../src/XDEDRAW/XDEDRAW.cxx; sourceTree = "<group>"; };
+		18A60DB106D30BC00AEE1351 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Colors.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Colors.cxx; sourceTree = "<group>"; };
+		0F4705AF02FD0BBD0AAB08E6 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Common.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Common.cxx; sourceTree = "<group>"; };
+		0D8B06FF140A183B04E616BD = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_GDTs.cxx; path = ../../../src/XDEDRAW/XDEDRAW_GDTs.cxx; sourceTree = "<group>"; };
+		026C103F055C03D70AFE1048 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Layers.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Layers.cxx; sourceTree = "<group>"; };
+		0F2603D5113E042D01CB1491 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Notes.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Notes.cxx; sourceTree = "<group>"; };
+		136906EE07620D0A09E3145A = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Props.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Props.cxx; sourceTree = "<group>"; };
+		11E9197C1106121015B11423 = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Shapes.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Shapes.cxx; sourceTree = "<group>"; };
+		15620637069111B209850F0D = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDEDRAW_Views.cxx; path = ../../../src/XDEDRAW/XDEDRAW_Views.cxx; sourceTree = "<group>"; };
+
+		0AB9028807C0088E112100B3 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKCDF.dylib; path = libTKCDF.dylib; sourceTree = "<group>"; };
+		0A8B0AA50BB30D4C0940129D = {isa = PBXFileReference; lastKnownFileType = file; name = libTKBRep.dylib; path = libTKBRep.dylib; sourceTree = "<group>"; };
+		03600C9903EA0EB30CAF185C = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXCAF.dylib; path = libTKXCAF.dylib; sourceTree = "<group>"; };
+		11F00CD419000C4B0A1E0BF0 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKernel.dylib; path = libTKernel.dylib; sourceTree = "<group>"; };
+		0CC610D91949030002591072 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKIGES.dylib; path = libTKIGES.dylib; sourceTree = "<group>"; };
+		17B61249085F11650C3D098A = {isa = PBXFileReference; lastKnownFileType = file; name = libTKV3d.dylib; path = libTKV3d.dylib; sourceTree = "<group>"; };
+		14CB171903D203CF051A0A21 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKMath.dylib; path = libTKMath.dylib; sourceTree = "<group>"; };
+		0F77126B17B8050E18280149 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKService.dylib; path = libTKService.dylib; sourceTree = "<group>"; };
+		186D01FA061403DD004A0A50 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXSBase.dylib; path = libTKXSBase.dylib; sourceTree = "<group>"; };
+		017018EB0BF8123D01F31274 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKG2d.dylib; path = libTKG2d.dylib; sourceTree = "<group>"; };
+		1786058F1441025B013D0ECD = {isa = PBXFileReference; lastKnownFileType = file; name = libTKCAF.dylib; path = libTKCAF.dylib; sourceTree = "<group>"; };
+		196D0AF6151702A81662103B = {isa = PBXFileReference; lastKnownFileType = file; name = libTKVCAF.dylib; path = libTKVCAF.dylib; sourceTree = "<group>"; };
+		151506C511B218F303950A1F = {isa = PBXFileReference; lastKnownFileType = file; name = libTKDraw.dylib; path = libTKDraw.dylib; sourceTree = "<group>"; };
+		088B0A8C1744185A043F0A7F = {isa = PBXFileReference; lastKnownFileType = file; name = libTKTopAlgo.dylib; path = libTKTopAlgo.dylib; sourceTree = "<group>"; };
+		120E0EDB08890FEA15DC0641 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKLCAF.dylib; path = libTKLCAF.dylib; sourceTree = "<group>"; };
+		15FC10720C7E193001A20160 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKG3d.dylib; path = libTKG3d.dylib; sourceTree = "<group>"; };
+		13260DC4051B17EC12DD0494 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKSTEPBase.dylib; path = libTKSTEPBase.dylib; sourceTree = "<group>"; };
+		076E010900EA16930AE90231 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKSTEP.dylib; path = libTKSTEP.dylib; sourceTree = "<group>"; };
+		0FFD121300840B4B17540508 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKMesh.dylib; path = libTKMesh.dylib; sourceTree = "<group>"; };
+		030E10D91134180116710210 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXSDRAW.dylib; path = libTKXSDRAW.dylib; sourceTree = "<group>"; };
+		01B417C5159A05C318C016EA = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXDEIGES.dylib; path = libTKXDEIGES.dylib; sourceTree = "<group>"; };
+		0D881594147314F716FB1702 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXDESTEP.dylib; path = libTKXDESTEP.dylib; sourceTree = "<group>"; };
+		16B011A117E30EBA15E50B67 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKDCAF.dylib; path = libTKDCAF.dylib; sourceTree = "<group>"; };
+		021B0E0F1130178D0ACD0F32 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKViewerTest.dylib; path = libTKViewerTest.dylib; sourceTree = "<group>"; };
+		16790083006E153D122117C4 = {isa = PBXFileReference; lastKnownFileType = file; name = libTKBinXCAF.dylib; path = libTKBinXCAF.dylib; sourceTree = "<group>"; };
+		18B701F00F96045410A6016E = {isa = PBXFileReference; lastKnownFileType = file; name = libTKXmlXCAF.dylib; path = libTKXmlXCAF.dylib; sourceTree = "<group>"; };
+		13320D7C1543143119710C7D = {isa = PBXFileReference; lastKnownFileType = file; name = libTKVRML.dylib; path = libTKVRML.dylib; sourceTree = "<group>"; };
+
+		0E0E0AA216C5175606D5006C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161F0D6F03860F48123E0319 ,
+				02E7064D02F00A4F02670C36 ,
+				0C0E191C0CC612B6138217F0 ,
+				06970AEF11FD041A0AA002C9 ,
+				1070194E0AD40C2813930DCA ,
+				0D69010116D60F0B103308C6 ,
+				0D9C03210B810ACB045F1072 ,
+				159E0239163D0C9A0BBF195C ,
+				0985051D0B1817CB02F30C44 ,
+				10670962110204F210F90AAC ,
+				051608860F29005303CE1155 ,
+				02A219621309161016B20C6F ,
+				066B0198016113B1195F0BE8 ,
+				178610530E7E044401F30A7E ,
+				1920081F0C8F084101D106CC ,
+				005F0F9B041C136200B90537 ,
+				049409970565147E12AA13C8 ,
+				0076031E057318E610BD1828 ,
+				00130F8207AA08A3102D10F8 ,
+				014410B7149B086607D712B0 ,
+				02290B2F054900FF0A281445 ,
+				152118620E3908650A921300 ,
+				08DA113F18D20365006001CE ,
+				025C10BA02151387131C03B9 ,
+				1088062002320E2017B118F7 ,
+				00340B4518AB148109E3019B ,
+				07450D9310180EB9006E0A6E ,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		16EF0BEE04EC18E6067F0AF1 = {
+			isa = PBXGroup;
+			children = (
+				026A0C5C108A0836066D1730 ,
+				18A60DB106D30BC00AEE1351 ,
+				0F4705AF02FD0BBD0AAB08E6 ,
+				0D8B06FF140A183B04E616BD ,
+				026C103F055C03D70AFE1048 ,
+				0F2603D5113E042D01CB1491 ,
+				136906EE07620D0A09E3145A ,
+				11E9197C1106121015B11423 ,
+				15620637069111B209850F0D ,
+			);
+			name = XDEDRAW;
+			sourceTree = "<group>";
+		};
+
+		036211A71772049E024713CF = {
+			isa = PBXGroup;
+			children = (
+				0AB9028807C0088E112100B3 ,
+				0A8B0AA50BB30D4C0940129D ,
+				03600C9903EA0EB30CAF185C ,
+				11F00CD419000C4B0A1E0BF0 ,
+				0CC610D91949030002591072 ,
+				17B61249085F11650C3D098A ,
+				14CB171903D203CF051A0A21 ,
+				0F77126B17B8050E18280149 ,
+				186D01FA061403DD004A0A50 ,
+				017018EB0BF8123D01F31274 ,
+				1786058F1441025B013D0ECD ,
+				196D0AF6151702A81662103B ,
+				151506C511B218F303950A1F ,
+				088B0A8C1744185A043F0A7F ,
+				120E0EDB08890FEA15DC0641 ,
+				15FC10720C7E193001A20160 ,
+				13260DC4051B17EC12DD0494 ,
+				076E010900EA16930AE90231 ,
+				0FFD121300840B4B17540508 ,
+				030E10D91134180116710210 ,
+				01B417C5159A05C318C016EA ,
+				0D881594147314F716FB1702 ,
+				16B011A117E30EBA15E50B67 ,
+				021B0E0F1130178D0ACD0F32 ,
+				16790083006E153D122117C4 ,
+				18B701F00F96045410A6016E ,
+				13320D7C1543143119710C7D ,
+
+				15A618C80F3A051702111773 ,
+				122808E905121242089A0D2B ,
+			);
+			sourceTree = "<group>";
+		};
+		15A618C80F3A051702111773 = {
+			isa = PBXGroup;
+			children = (
+				16EF0BEE04EC18E6067F0AF1 ,
+			);
+			name = "Source files";
+			sourceTree = "<group>";
+		};
+
+		035D047F176C021F146F0B1D = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		15DD16880DBF0AA600AF0274 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E9C0C4C020D051002EE00C6 ;
+			buildPhases = (
+				0B3F1002060600A518300E0E ,
+				0E0E0AA216C5175606D5006C ,
+				035D047F176C021F146F0B1D ,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKXDEDRAW;
+			productName = TKXDEDRAW;
+			productReference = 122808E905121242089A0D2B ;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+
+		0E14158D00810AA306930CBD = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 161F0C6308EA0ECB086B0056 ;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 036211A71772049E024713CF;
+			productRefGroup = 036211A71772049E024713CF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DD16880DBF0AA600AF0274 ,
+			);
+		};
+
+		0B3F1002060600A518300E0E = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1146050604CE085B198212EA ,
+				108F0397029F077A11A01077 ,
+				193C181714E60F8018ED0BDE ,
+				00070C91168F15F40E4B0E02 ,
+				16E50BBE06BC0CA113B41924 ,
+				05300A80075010FA17530EDD ,
+				15531922051A126A03441476 ,
+				119C045A14B1033F068A1393 ,
+				0B940239058B0657032B15E4 ,
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+		0A7901D017F60E2810810C5C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "$(CSF_OPT_LNK64D)"; 
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0505012214BA03B6168C14F3 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "$(CSF_OPT_LNK64)";
+			};
+			name = Release;
+		};
+		098810C60C6F046C04850F2E = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					OCC_CONVERT_SIGNALS ,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../inc,
+					/usr/local/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/gl2ps/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include/freetype,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/include,
+					/Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/inc,
+					"$(CSF_OPT_INC)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr,
+					/usr/lib,
+					/Users/mnt/tools/WOK680/site/../3rdparty/mac64/gl2ps/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/lib,
+					/Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/adm/mac/xcd/build/Release,
+				);
+				OTHER_CFLAGS = (
+					"$(CSF_OPT_CMPL)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = " ../../../inc /usr/local/include /Users/mnt/tools/WOK680/3rdparty/mac64/gl2ps/include /Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/include /Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include /Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include/freetype /Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/include /Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/inc";
+				WRAPPER_EXTENSION = dylib;
+			};
+			name = Debug;
+		};
+		147B09D2107F005B0BDF0B2D = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_EXTENSION = dylib;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					OCC_CONVERT_SIGNALS ,
+				);
+				HEADER_SEARCH_PATHS = (
+					../../../inc,
+					/usr/local/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/gl2ps/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include/freetype,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/include,
+					/Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/inc,
+					"$(CSF_OPT_INC)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr,
+					/usr/lib,
+					/Users/mnt/tools/WOK680/site/../3rdparty/mac64/gl2ps/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/lib,
+					/Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/lib,
+					/Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/adm/mac/xcd/build/Release,
+				);
+				OTHER_CFLAGS = (
+					"$(CSF_OPT_CMPL)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = " ../../../inc /usr/local/include /Users/mnt/tools/WOK680/3rdparty/mac64/gl2ps/include /Users/mnt/tools/WOK680/3rdparty/mac64/tbb42_20140416oss/include /Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include /Users/mnt/tools/WOK680/3rdparty/mac64/FreeType2/include/freetype /Users/mnt/tools/WOK680/3rdparty/mac64/FreeImage/include /Users/mnt/builds/OCCT-740_OCCT-740/MacOS-opt/OCCT/inc";
+				WRAPPER_EXTENSION = dylib;
+			};
+			name = Release;
+		};
+
+		161F0C6308EA0ECB086B0056 = {
+			isa = XCConfigurationList;
+		buildConfigurations = (
+				0A7901D017F60E2810810C5C ,
+				0505012214BA03B6168C14F3 ,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E9C0C4C020D051002EE00C6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				098810C60C6F046C04850F2E ,
+				147B09D2107F005B0BDF0B2D ,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+
+	};
+	rootObject = 0E14158D00810AA306930CBD ;
+}

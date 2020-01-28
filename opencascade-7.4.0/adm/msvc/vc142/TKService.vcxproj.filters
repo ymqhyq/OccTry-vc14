@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{2BDA227F-0105-0CC3-016E-C3BE33FC2F2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7D93C657-112A-0FDB-0E12-68689BABBFD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Aspect">
+      <UniqueIdentifier>{BE333261-0336-11FF-05DA-C97E2578E5E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Xw">
+      <UniqueIdentifier>{3E0CA4FB-02C5-0BF8-022D-BA0A2CF1EB49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Image">
+      <UniqueIdentifier>{8E1163C1-110A-15D9-0617-18210E2259AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Media">
+      <UniqueIdentifier>{2D9C1CA6-10AD-0A8A-1312-6DD3DC703C55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\WNT">
+      <UniqueIdentifier>{88FF8C64-1152-157A-01F0-7FA52E3597C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Font">
+      <UniqueIdentifier>{7FEEF782-111B-0171-162E-F65242928531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Aspect">
+      <UniqueIdentifier>{6679B36B-07CE-111D-04E5-25C609EC9F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\InterfaceGraphic">
+      <UniqueIdentifier>{D5F6FBE4-07E9-0CE4-14CF-6E1E3681A66E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Xw">
+      <UniqueIdentifier>{D5A1DE97-0F6C-08E7-0790-279E18FC67E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Image">
+      <UniqueIdentifier>{091C1B11-05D6-134C-167B-D479D189A3F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Media">
+      <UniqueIdentifier>{6AAF0070-00B7-10DC-0A9F-76026D994A8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\WNT">
+      <UniqueIdentifier>{ED47CB20-0251-0780-0AB6-D1C10FD9FB30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Cocoa">
+      <UniqueIdentifier>{FA3544DB-04CF-0282-1919-CF1326F23FE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TColQuantity">
+      <UniqueIdentifier>{41409BDF-165E-0818-18E3-A95236548951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Font">
+      <UniqueIdentifier>{033F2AE2-0F72-0303-17FB-1D7F047DFB5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Background.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_CircularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_DisplayConnection.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GenId.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GradientBackground.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Grid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_NeutralWindow.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_RectangularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_VKeySet.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Window.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Xw\Xw_Window.cxx">
+      <Filter>Source files\Xw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_AlienPixMap.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Diff.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_PixMap.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Texture.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_VideoRecorder.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_BufferPool.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_CodecContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_FormatContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Frame.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Packet.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_PlayerContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Scaler.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Timer.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_WClass.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_Window.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_BRepFont.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_BRepTextBuilder.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FTFont.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FTLibrary.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FontMgr.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_SystemFont.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_TextFormatter.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectLineDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Background.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_CircularGrid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Convert.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Display.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnection.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Drawable.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FBConfig.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FillMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GenId.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientBackground.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientFillMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Grid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridDrawMode.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridType.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Handle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_HatchStyle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_IdentDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_InteriorStyle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_NeutralWindow.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_PolygonOffsetMode.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RectangularGrid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RenderingContext.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_ScrollDelta.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_SequenceOfColor.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Touch.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TouchMap.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScalePosition.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDeflection.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDisplayText.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfFacingModel.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfHighlightMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfLine.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfMarker.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfResize.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfStyleText.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfTriedronPosition.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Units.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKey.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeyFlags.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeySet.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WidthOfLine.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Window.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XAtom.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XWD.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\InterfaceGraphic\InterfaceGraphic.hxx">
+      <Filter>Header files\InterfaceGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Xw\Xw_Window.hxx">
+      <Filter>Header files\Xw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_AlienPixMap.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Color.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Diff.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Format.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMap.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapData.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapTypedData.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Texture.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_VideoRecorder.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_BufferPool.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_CodecContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_FormatContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Frame.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_IFrameQueue.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Packet.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_PlayerContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Scaler.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Timer.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_ClassDefinitionError.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_Dword.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_OrientationType.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_WClass.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_Window.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_Window.lxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_WindowPtr.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.hxx">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.mm">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.hxx">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.mm">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColQuantity\TColQuantity_Array1OfLength.hxx">
+      <Filter>Header files\TColQuantity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColQuantity\TColQuantity_Array2OfLength.hxx">
+      <Filter>Header files\TColQuantity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColQuantity\TColQuantity_HArray1OfLength.hxx">
+      <Filter>Header files\TColQuantity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColQuantity\TColQuantity_HArray2OfLength.hxx">
+      <Filter>Header files\TColQuantity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_BRepFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_BRepTextBuilder.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FTFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FTLibrary.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FontAspect.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FontMgr.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_NListOfSystemFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_NameOfFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_Rect.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_StrictLevel.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_SystemFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_TextFormatter.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_UnicodeSubset.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKService.rc" />
+  </ItemGroup>
+</Project>

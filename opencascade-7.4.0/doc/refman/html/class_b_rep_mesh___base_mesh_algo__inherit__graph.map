@@ -1,0 +1,7 @@
+<map id="BRepMesh_BaseMeshAlgo" name="BRepMesh_BaseMeshAlgo">
+<area shape="rect" id="node4" href="$class_b_rep_mesh___constrained_base_mesh_algo.html" title="Class provides base fuctionality to build face triangulation using Dealunay approach. Performs generation of mesh using raw data from model. " alt="" coords="149,229,341,271"/>
+<area shape="rect" id="node2" href="$class_i_mesh_tools___mesh_algo.html" title="Interface class providing API for algorithms intended to create mesh for discrete face..." alt="" coords="169,80,322,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="178,5,313,32"/>
+<area shape="rect" id="node5" href="$class_b_rep_mesh___custom_base_mesh_algo.html" title="Class provides base fuctionality to build face triangulation using custom triangulation algorithm..." alt="" coords="5,319,232,345"/>
+<area shape="rect" id="node6" href="$class_b_rep_mesh___delaunay_base_mesh_algo.html" title="Class provides base fuctionality to build face triangulation using Dealunay approach. Performs generation of mesh using raw data from model. " alt="" coords="256,319,491,345"/>
+</map>
